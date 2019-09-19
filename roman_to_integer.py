@@ -1,6 +1,9 @@
 class roman_to_integer:
     def romanToInt(self, s: str) -> int:
-        
+        result = self.converToArabicNums(s)
+        print(result)
+        #return sum(result)
+
     def romanNumbers(self, val):
         roman_numbers = {"I" : 1,
                         "V" : 5,
@@ -23,3 +26,5 @@ class roman_to_integer:
         return number
 
 
+sol = roman_to_integer()
+print(sol.romanToInt("MCMXCII")) # 1992
