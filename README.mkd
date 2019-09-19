@@ -2,7 +2,7 @@
 
 # ROMAN TO INTEGER
 
-[https://leetcode.com/problems/integer-to-roman/](link1){:target="_blank"}
+[https://leetcode.com/problems/integer-to-roman/][link1]
 
 
 ###problem
