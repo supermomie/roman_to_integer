@@ -19,12 +19,8 @@ def romanToInt(s):
 
 start = datetime.now()
 
-romanToInt("MCMXCII")
-print("one time : ", datetime.now()-start)
-
 for i in range(100000):
-    
    res= romanToInt("MCMXCII")
 
 print(res)
-print("looped 1M time : ",datetime.now()-start) #0.1s
+print("looped 1M times : ",datetime.now()-start) #0.1s

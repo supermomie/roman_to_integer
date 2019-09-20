@@ -1,3 +1,6 @@
+from datetime import datetime
+
+
 class roman_to_integer:
     def romanToInt(self, s: str) -> int:
         result = self.checkCombination(s)
@@ -34,5 +37,12 @@ class roman_to_integer:
         return translate
 
 
+start = datetime.now()
 sol = roman_to_integer()
-print(sol.romanToInt("MCMXCII")) # 1992
+
+for i in range(100000):
+    res = sol.romanToInt("MCMXCII") # 1992
+
+
+print(res)
+print("looped 1M times : ",datetime.now()-start)
